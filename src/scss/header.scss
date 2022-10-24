@@ -1,0 +1,139 @@
+.header {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 200px 0;
+   background-image: url("../images/banner.png");
+   background-position: center;
+   background-size: cover;
+
+   &-top {
+      width: 100%;
+      max-width: 1200px;
+      position: absolute;
+      top: 25px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      font-size: 11px;
+      line-height: 16.5px;
+      color: var(--white);
+      text-transform: uppercase;
+
+      &__logo {
+         display: flex;
+         align-items: center;
+         margin-right: 90px;
+
+         img {
+            width: 24px;
+            height: 24px;
+            margin-right: 16px;
+         }
+      }
+
+      &__menu {
+         ul {
+            list-style-type: none;
+            display: flex;
+
+            li:not(:last-child) {
+               margin-right: 24px;
+            }
+
+            a {
+               color: var(--white);
+               text-decoration: none;
+            }
+         }
+      }
+
+      &__search {
+         flex-grow: 1;
+         display: flex;
+
+         form {
+            flex-basis: 248px;
+            margin-left: auto;
+
+            input {
+               width: 100%;
+               border: none;
+               border-radius: 50px;
+               background: var(--color-dark);
+               color: #757575;
+               display: inline-block;
+               height: 25px;
+               padding-left: 10px;
+               text-transform: uppercase;
+               font-size: 13.3px;
+               line-height: 15.29px;
+               font-family: "Arial", sans-serif;
+            }
+         }
+      }
+   }
+
+   &-composition {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: var(--white);
+
+      &--h1 {
+         margin: 0;
+         text-align: center;
+      }
+
+      &--h2 {
+         margin: 0;
+      }
+
+      &__form-subtitle {
+         margin: 31px 0 17px;
+         font-size: 16px;
+         line-height: 24px;
+      }
+   }
+}
+
+.header2 {
+   background-image: url("../images/Morten Harket.png");
+   justify-content: flex-start;
+
+   &-composition {
+      align-items: flex-start;
+
+      &--subtitle {
+         font-size: 16px;
+         line-height: 24px;
+         margin: 16px 0 48px 0;
+      }
+   }
+
+   &-buttons {
+      display: flex;
+      width: 100%;
+      gap: 24px;
+   }
+
+   .btn {
+      width: auto;
+      flex-basis: 200px;
+      padding: 21px 0 21px 31px;
+      font-size: 12.8px;
+      line-height: 19.2px;
+      border: none;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+
+      img {
+         display: inline-block;
+         width: 20px;
+         height: 20px;
+         margin-right: 16px;
+      }
+   }
+}

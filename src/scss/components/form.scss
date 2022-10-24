@@ -1,0 +1,26 @@
+.form {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 24px;
+   max-width: 570px;
+   width: 100%;
+
+   & > * {
+      flex-basis: calc(50% - 12px);
+   }
+
+   &__input {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16.41px;
+      background: none;
+      color: var(--white);
+      border: 2px solid var(--font-color);
+      border-radius: 3px;
+      padding: 16px 0 18px 22px;
+   }
+
+   &__button {
+      flex-basis: 100%;
+   }
+}

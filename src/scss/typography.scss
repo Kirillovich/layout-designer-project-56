@@ -1,0 +1,41 @@
+.h1,
+.h2 {
+   text-transform: uppercase;
+   font-weight: 700;
+   margin: 0;
+}
+
+.h1 {
+   font-size: 60px;
+   line-height: 90px;
+}
+
+.h2 {
+   font-size: 38px;
+   line-height: 57px;
+   margin-bottom: 48px;
+   color: var(--white)
+}
+
+.h3 {
+   font-size: 12.8px;
+   line-height: 19.2px;
+   font-weight: 700;
+   color: var(--white);
+}
+
+.btn--green {
+   background: var(--color-green);
+}
+
+.bg--free {
+   background: url("../images/subscribe_1.png");
+}
+
+.bg--standart {
+   background: url("../images/subscribe_2.png");
+}
+
+.bg--premium {
+   background: url("../images/subscribe_3.png");
+}
