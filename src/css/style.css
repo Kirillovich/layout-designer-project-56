@@ -37,7 +37,6 @@ img {
 .container {
   max-width: 1200px;
   width: 100%;
-  margin: 0 auto;
 }
 
 section {
@@ -366,7 +365,8 @@ section {
   color: var(--white);
   border: 2px solid var(--font-color);
   border-radius: 3px;
-  padding: 16px 0 18px 22px;
+  padding: 15px 0 15px 22px;
+  font-family: "Roboto", sans-serif;
 }
 .form__button {
   flex-basis: 100%;
