@@ -38,8 +38,13 @@
             list-style-type: none;
             display: flex;
 
+            li {
+               line-height: 12.89px;
+            }
+
             li:not(:last-child) {
                margin-right: 24px;
+               margin-bottom: 3px;
             }
 
             a {

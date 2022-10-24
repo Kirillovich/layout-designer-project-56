@@ -131,8 +131,12 @@ section {
   list-style-type: none;
   display: flex;
 }
+.header-top__menu ul li {
+  line-height: 12.89px;
+}
 .header-top__menu ul li:not(:last-child) {
   margin-right: 24px;
+  margin-bottom: 3px;
 }
 .header-top__menu ul a {
   color: var(--white);
