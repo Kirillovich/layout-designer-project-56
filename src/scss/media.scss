@@ -177,7 +177,10 @@
    }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
+   .header {
+      padding-bottom: 201px;
+   }
    .header2 {
       &-composition {
          margin-top: 55px;
@@ -186,7 +189,13 @@
          flex-wrap: wrap;
       }
    }
-
+   .news {
+      &__body {
+         h3 {
+            margin: 0 0 16px;
+         }
+      }
+   }
    .footer {
       &__block {
          flex-basis: 100%;

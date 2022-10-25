@@ -65,4 +65,10 @@
       padding-left: 144px;
       display: block;
    }
+
+   &__info {
+      p:first-child {
+         margin-top: 0;
+      }
+   }
 }

@@ -275,6 +275,9 @@ section {
   padding-left: 144px;
   display: block;
 }
+.page-app__info p:first-child {
+  margin-top: 0;
+}
 
 .footer {
   color: var(--color-light);
@@ -341,10 +344,12 @@ section {
   gap: 16px;
 }
 .footer__menu-link {
-  font-size: 16px;
-  line-height: 24px;
   color: var(--color-light);
   text-decoration: none;
+}
+.footer__menu-item {
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .form {
@@ -471,6 +476,11 @@ section {
   margin: 40px 0 0;
   text-align: center;
   color: var(--white);
+}
+.pricing .btn {
+  line-height: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .track {
@@ -706,12 +716,18 @@ section {
     height: 137px;
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 415px) {
+  .header {
+    padding-bottom: 201px;
+  }
   .header2-composition {
     margin-top: 55px;
   }
   .header2-buttons {
     flex-wrap: wrap;
+  }
+  .news__body h3 {
+    margin: 0 0 16px;
   }
   .footer__block {
     flex-basis: 100%;
