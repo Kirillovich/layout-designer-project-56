@@ -741,4 +741,10 @@ section {
   .footer__menu-item {
     flex-basis: 100%;
   }
+  .footer__top {
+    padding: 62px 0 75px;
+  }
+  .footer__menu {
+    padding: 40px 0 47px;
+  }
 }
