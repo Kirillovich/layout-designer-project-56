@@ -309,6 +309,7 @@ section {
 }
 .footer__item {
   line-height: 24px;
+  font-size: 16px;
 }
 .footer__link {
   font-size: 16px;
