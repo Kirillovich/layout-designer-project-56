@@ -287,12 +287,13 @@ section {
 }
 .footer__top {
   display: flex;
-  justify-content: space-between;
+  column-gap: 40px;
   padding: 62px 0 72px;
 }
 .footer__block {
   display: flex;
   flex-direction: column;
+  flex-basis: 270px;
 }
 .footer__block:last-of-type .footer__block-title {
   font-size: 17px;
