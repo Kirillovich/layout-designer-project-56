@@ -191,6 +191,11 @@
       }
    }
    .news {
+      &__item:last-child .news__body {
+         p {
+            margin: 0 0 16px;
+         }
+      }
       &__body {
          h3 {
             margin: 0 0 16px;

@@ -735,6 +735,9 @@ section {
   .header2-buttons {
     flex-wrap: wrap;
   }
+  .news__item:last-child .news__body p {
+    margin: 0 0 16px;
+  }
   .news__body h3 {
     margin: 0 0 16px;
   }
