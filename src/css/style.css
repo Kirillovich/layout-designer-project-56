@@ -738,6 +738,11 @@ section {
   .footer__block {
     flex-basis: 100%;
   }
+  .footer__block-title {
+    font-size: 18px !important;
+    line-height: 27px;
+    margin-bottom: 16px;
+  }
   .footer__menu-item {
     flex-basis: 100%;
   }
