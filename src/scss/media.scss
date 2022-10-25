@@ -197,6 +197,19 @@
          }
       }
    }
+   .page-app {
+      &__img {
+         text-align: center;
+      }
+      &__info {
+         p:last-of-type {
+            margin-bottom: 0;
+         }
+         .btn {
+            margin-top: 15px;
+         }
+      }
+   }
    .footer {
       &__block {
          flex-basis: 100%;

@@ -735,6 +735,15 @@ section {
   .news__body h3 {
     margin: 0 0 16px;
   }
+  .page-app__img {
+    text-align: center;
+  }
+  .page-app__info p:last-of-type {
+    margin-bottom: 0;
+  }
+  .page-app__info .btn {
+    margin-top: 15px;
+  }
   .footer__block {
     flex-basis: 100%;
   }
