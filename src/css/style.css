@@ -276,6 +276,9 @@ section {
   padding-left: 144px;
   display: block;
 }
+.page-app__img img {
+  display: block;
+}
 .page-app__info p:first-child {
   margin-top: 0;
 }
