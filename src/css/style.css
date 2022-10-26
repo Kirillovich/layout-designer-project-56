@@ -465,7 +465,7 @@ section {
 }
 .pricing__value sup {
   font-size: 32px;
-  line-height: 48px;
+  line-height: 40px;
   text-transform: uppercase;
 }
 .pricing__footer {
