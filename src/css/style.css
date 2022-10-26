@@ -34,13 +34,11 @@ img {
   max-width: 100%;
 }
 
-.container {
-  max-width: 1200px;
+section,
+footer {
+  max-width: 1240px;
   width: 100%;
   margin: 0 auto;
-}
-
-section {
   padding: 100px 20px 0;
 }
 
