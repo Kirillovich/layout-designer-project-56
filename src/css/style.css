@@ -451,7 +451,7 @@ section {
 .pricing__item {
   padding: 1.5rem;
   border-radius: 1rem;
-  background-position: center;
+  background-position: left top;
   background-size: cover;
 }
 .pricing__value {
