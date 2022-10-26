@@ -459,6 +459,10 @@ section {
   line-height: 1em;
   margin: 200px 0 40px;
 }
+.pricing__value span {
+  font-size: 64px;
+  line-height: 64px;
+}
 .pricing__value sup {
   font-size: 32px;
   line-height: 48px;
@@ -747,7 +751,7 @@ section {
     font-weight: 400;
   }
   .pricing__item {
-    padding: 1rem 1.5rem 1.5rem;
+    padding: 16px 1.5rem 1.5rem;
   }
   .page-app__img {
     text-align: center;
