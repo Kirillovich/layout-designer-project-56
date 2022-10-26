@@ -202,6 +202,16 @@
          }
       }
    }
+   .pricing {
+      h3 {
+         font-size: 16px;
+         line-height: 24px;
+         font-weight: 700;
+      }
+      &__item {
+         padding: 1rem 1.5rem 1.5rem;
+      }
+   }
    .page-app {
       &__img {
          text-align: center;
