@@ -277,10 +277,6 @@ footer {
 .page-app__img img {
   display: block;
 }
-.page-app__info p:first-child {
-  margin-top: 0;
-}
-
 .footer {
   color: var(--color-light);
   background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
