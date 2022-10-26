@@ -447,6 +447,7 @@ footer {
   border-radius: 1rem;
   background-position: left top;
   background-size: cover;
+  flex-basis: 33.33333333%;
 }
 .pricing__value {
   font-size: 64px;
