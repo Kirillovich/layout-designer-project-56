@@ -753,6 +753,9 @@ footer {
   .page-app__info p:last-of-type {
     margin-bottom: 0;
   }
+  .page-app__info p:first-child {
+    margin-top: 0;
+  }
   .page-app__info .btn {
     margin-top: 15px;
   }

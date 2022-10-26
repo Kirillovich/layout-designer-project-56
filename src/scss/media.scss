@@ -220,6 +220,9 @@
          p:last-of-type {
             margin-bottom: 0;
          }
+         p:first-child {
+            margin-top: 0;
+         }
          .btn {
             margin-top: 15px;
          }
