@@ -5,7 +5,7 @@
   max-width: 570px;
   width: 100%;
 
-  &>* {
+  & > * {
     flex-basis: calc(50% - 12px);
   }
 
@@ -18,7 +18,7 @@
     border: 2px solid var(--font-color);
     border-radius: 3px;
     padding: 15px 0 15px 22px;
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, sans-serif;
   }
 
   &__button {
