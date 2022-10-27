@@ -282,6 +282,7 @@ section {
 .page-app__img img {
   display: block;
 }
+
 .footer {
   color: var(--color-light);
   background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
@@ -744,6 +745,10 @@ section {
   }
   .news__body h3 {
     margin: 0 0 16px;
+  }
+  .discography__year {
+    font-size: 16px;
+    line-height: 24px;
   }
   .pricing h3 {
     font-size: 16px;
