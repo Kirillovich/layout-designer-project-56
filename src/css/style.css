@@ -34,12 +34,17 @@ img {
   max-width: 100%;
 }
 
-section,
-footer {
+section {
   max-width: 1240px;
   width: 100%;
   margin: 0 auto;
   padding: 100px 20px 0;
+}
+
+.wrapper {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .h1,
