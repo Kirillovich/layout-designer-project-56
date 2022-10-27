@@ -414,7 +414,7 @@ section {
 
 .btn--news {
   color: var(--font-color);
-  border-color: currentColor;
+  border-color: currentcolor;
   display: inline-block;
   width: initial;
   padding: 16px 31px;
@@ -453,7 +453,7 @@ section {
   border-radius: 1rem;
   background-position: left top;
   background-size: cover;
-  flex-basis: 33.33333333%;
+  flex-basis: 33.3333%;
 }
 .pricing__value {
   font-size: 64px;

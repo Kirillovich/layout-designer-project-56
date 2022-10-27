@@ -1,59 +1,59 @@
 .pricing {
-   color: var(--white);
-   text-align: center;
-   display: flex;
-   gap: 50px;
-   
-   &__item {
-      padding: 1.5rem;
-      border-radius: 1rem;
-      background-position: left top;
-      background-size: cover;
-      flex-basis: 33.33333333%;
-   }
+  color: var(--white);
+  text-align: center;
+  display: flex;
+  gap: 50px;
 
-   &__value {
+  &__item {
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-position: left top;
+    background-size: cover;
+    flex-basis: 33.3333%;
+  }
+
+  &__value {
+    font-size: 64px;
+    line-height: 1em;
+    margin: 200px 0 40px;
+
+    span {
       font-size: 64px;
-      line-height: 1em;
-      margin: 200px 0 40px;
+      line-height: 64px;
+    }
 
-      span {
-         font-size: 64px;
-         line-height: 64px;
-      }
-
-      sup {
-         font-size: 32px;
-         line-height: 40px;
-         text-transform: uppercase;
-      }
-   }
-
-   &__footer {
-      font-size: 12.8px;
-      line-height: 19.2px;
-      margin: 64px 0 40px;
-   }
-
-   h3 {
-      font-size: 24px;
-      line-height: 36px;
+    sup {
+      font-size: 32px;
+      line-height: 40px;
       text-transform: uppercase;
-      margin: 0;
-      font-weight: 400;
-   }
+    }
+  }
 
-   &-bottom {
-      font-size: 16px;
-      line-height: 24px;
-      margin: 40px 0 0;
-      text-align: center;
-      color: var(--white);
-   }
+  &__footer {
+    font-size: 12.8px;
+    line-height: 19.2px;
+    margin: 64px 0 40px;
+  }
 
-   .btn {
-      line-height: 24px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-   }
+  h3 {
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 400;
+  }
+
+  &-bottom {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 40px 0 0;
+    text-align: center;
+    color: var(--white);
+  }
+
+  .btn {
+    line-height: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }

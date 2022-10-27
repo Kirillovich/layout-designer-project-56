@@ -1,29 +1,34 @@
 .similar {
-   flex-basis: 250px;
-   &-flex {
-      display: flex;
-      flex-wrap: wrap;
-      column-gap: 50px;
-      row-gap: 25px;
-   }
-   &__img {
-      display: block;
-      width: 250px;
-      height: 250px;
-   }
-   &__info {
-      color: var(--color-light);
-      text-align: center;
-   }
-   &__h3 {
-      font-size: 18px;
-      line-height: 27px;
-      font-weight: bold;
-      color: var(--white);
-      margin: 17px 0 1px;
-   }
-   &__followers {
-      font-size: 16px;
-      line-height: 24px;
-   }
+  flex-basis: 250px;
+
+  &-flex {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 25px;
+  }
+
+  &__img {
+    display: block;
+    width: 250px;
+    height: 250px;
+  }
+
+  &__info {
+    color: var(--color-light);
+    text-align: center;
+  }
+
+  &__h3 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    color: var(--white);
+    margin: 17px 0 1px;
+  }
+
+  &__followers {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }

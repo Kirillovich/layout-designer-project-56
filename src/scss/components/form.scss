@@ -1,27 +1,27 @@
 .form {
-   display: flex;
-   flex-wrap: wrap;
-   gap: 24px;
-   max-width: 570px;
-   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  max-width: 570px;
+  width: 100%;
 
-   & > * {
-      flex-basis: calc(50% - 12px);
-   }
+  &>* {
+    flex-basis: calc(50% - 12px);
+  }
 
-   &__input {
-      font-size: 14px;
-      font-weight: 700;
-      line-height: 16.41px;
-      background: none;
-      color: var(--white);
-      border: 2px solid var(--font-color);
-      border-radius: 3px;
-      padding: 15px 0 15px 22px;
-      font-family: "Roboto", sans-serif;
-   }
+  &__input {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    background: none;
+    color: var(--white);
+    border: 2px solid var(--font-color);
+    border-radius: 3px;
+    padding: 15px 0 15px 22px;
+    font-family: "Roboto", sans-serif;
+  }
 
-   &__button {
-      flex-basis: 100%;
-   }
+  &__button {
+    flex-basis: 100%;
+  }
 }
